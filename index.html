@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Conversion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Exchange Rate Conversion</h1>
+    <form>
+        <label for = "country-from">Convert</label>
+        <input type="text" id="country-from" placeholder="CAD">
+        <label for="country-to">To</label>
+        <input type="text" id="country-to" placeholder="USD">
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" placeholder="750">
+    </form>
+    <button id="solve">Calculate</button>
+    <p id="display_message"></p>
+    <script src="script.js"></script>
+</body>
+</html>
