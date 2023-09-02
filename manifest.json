@@ -1,0 +1,11 @@
+{
+    "name": "Exchange-Rate Converter",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Extension to find currency in your home country",
+    "browser_action":{
+        "default_icon": "icon2.png",
+        "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://unpkg.com/axios/dist/axios.min.js; object-src 'self'"
+}
